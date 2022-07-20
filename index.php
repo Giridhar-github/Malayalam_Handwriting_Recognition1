@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=No">
     <meta name="description" content="Start your development with Rubic landing page.">
     <meta name="author" content="Devcrud">
-    <title>Rubic Landing page | Free Bootstrap 4.1 landing page</title>
+    <title>Malayalam_Handwriting_Recognition</title>
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + Rubic main styles -->
@@ -15,7 +15,7 @@
 
     <nav id="scrollspy" class="navbar page-navbar navbar-dark navbar-expand-md fixed-top" data-spy="affix" data-offset-top="20">
         <div class="container">
-            <a class="navbar-brand" ><strong class="text-primary">RU</strong><span class="text-light">BIC</span></a>
+            <a class="navbar-brand" ><strong class="text-primary">Malayalam</strong><span class="text-light"> Handwriting Recognition</span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -36,7 +36,7 @@
 	<section class="section" id="contact" style="min-height:700px;">
         <div class="container ">
             <h6 class="display-4 has-line">Malayalam Character Recognition </h6>
-
+			
 			<div class="row h-100 align-items-center text-center">
 				 <div class="col-md-12">
 				 

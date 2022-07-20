@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=No">
     <meta name="description" content="Start your development with Rubic landing page.">
     <meta name="author" content="Devcrud">
-    <title>Rubic Landing page | Free Bootstrap 4.1 landing page</title>
+    <title>Output</title>
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + Rubic main styles -->
@@ -45,21 +45,28 @@
 
 				</div>
 			</div>
-			
 			<?php
 			
 			$myfile = fopen("out.txt", "r") or die("Unable to open file!");
 			$out=fread($myfile,filesize("out.txt"));
 fclose($myfile);
-
 echo "<h2><center>$out</center></h2>";
+
+//if ($out=='aa'){$nm='aa'}
+$out=strval($out);
+//echo $out;
+
+//echo "<img src='.\sample\'.trim($out).'.jpg' alt='' width='45' height='32'>";//aa.jpg' alt='' width='45' height='32'>"
+//echo "<img src='.\sample\aa.jpg' alt='' width='45' height='32'>";
+echo "<img src='./sample/$out.jpg' alt='' width='45' height='32'>";
+
 			
 			?>
 			
 		
 			
         </div>
-    </section>
+    </section
 	
     
 	<?php
